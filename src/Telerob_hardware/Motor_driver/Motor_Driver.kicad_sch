@@ -2955,6 +2955,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 74.295) (xy 184.15 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cbd9cd-460c-4ce2-bd73-8a9e8cda8404")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.815) (xy 73.66 43.815)
 		)
 		(stroke
@@ -3195,6 +3205,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 81.915) (xy 184.15 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c21b9a9-3366-4878-8683-ff2ef9e1295c")
+	)
+	(wire
+		(pts
 			(xy 78.74 90.17) (xy 76.835 90.17)
 		)
 		(stroke
@@ -3385,6 +3405,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 79.375) (xy 184.15 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a282f2-c0dd-4249-8d70-eac6e848a7c4")
+	)
+	(wire
+		(pts
 			(xy 109.22 98.425) (xy 111.76 98.425)
 		)
 		(stroke
@@ -3495,6 +3525,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 76.835) (xy 184.15 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cd3353-0e28-4629-bee2-048372d09dd1")
+	)
+	(wire
+		(pts
 			(xy 149.86 60.96) (xy 152.4 60.96)
 		)
 		(stroke
@@ -3593,6 +3633,17 @@
 		)
 		(uuid "fa8387a0-4ea6-417d-93e1-983383a3fb0c")
 	)
+	(hierarchical_label "GP12"
+		(shape input)
+		(at 181.61 79.375 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05ae32a0-a0db-457e-aefd-e78b4fad6459")
+	)
 	(hierarchical_label "GP22"
 		(shape input)
 		(at 33.02 41.275 180)
@@ -3659,7 +3710,7 @@
 		)
 		(uuid "22ff6ef7-103d-4435-8c73-66eef97fa674")
 	)
-	(hierarchical_label "GP3"
+	(hierarchical_label "B_2"
 		(shape input)
 		(at 76.2 59.055 0)
 		(effects
@@ -3758,7 +3809,7 @@
 		)
 		(uuid "37ef6a83-0e7b-4f91-8070-5ff1a89a7dc6")
 	)
-	(hierarchical_label "GP4"
+	(hierarchical_label "GP9"
 		(shape input)
 		(at 147.955 38.735 180)
 		(effects
@@ -3879,17 +3930,6 @@
 		)
 		(uuid "4f5e00c8-3523-4212-a3c8-4075c600608b")
 	)
-	(hierarchical_label "GP3"
-		(shape input)
-		(at 165.735 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52729610-1102-4e15-a9f1-8bcfd385e663")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 33.02 51.435 180)
@@ -3956,6 +3996,17 @@
 		)
 		(uuid "5aaeee95-799e-4f50-b1b9-b343a6987495")
 	)
+	(hierarchical_label "GP10"
+		(shape input)
+		(at 181.61 74.295 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ae2edc6-35ba-42b7-844c-741637c6f717")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 76.2 64.135 0)
@@ -4000,7 +4051,7 @@
 		)
 		(uuid "62d4ac4f-1ea6-44c8-8751-a2db85821492")
 	)
-	(hierarchical_label "GP5"
+	(hierarchical_label "GP21"
 		(shape input)
 		(at 109.22 88.265 180)
 		(effects
@@ -4022,7 +4073,7 @@
 		)
 		(uuid "692ea11c-3a52-4629-8660-a3b7951c1861")
 	)
-	(hierarchical_label "GP8"
+	(hierarchical_label "B_1"
 		(shape input)
 		(at 76.2 43.815 0)
 		(effects
@@ -4055,7 +4106,18 @@
 		)
 		(uuid "6f6f5853-8657-4cfe-8c5a-0f8792a95912")
 	)
-	(hierarchical_label "GP2"
+	(hierarchical_label "GP11"
+		(shape input)
+		(at 181.61 76.835 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70809f50-8838-46eb-a8db-0b9fd12072b8")
+	)
+	(hierarchical_label "GP5"
 		(shape input)
 		(at 147.955 25.4 180)
 		(effects
@@ -4076,6 +4138,17 @@
 			(justify right)
 		)
 		(uuid "7a4d445d-ec6b-4d98-b835-8c99bacfa061")
+	)
+	(hierarchical_label "GP13"
+		(shape input)
+		(at 181.61 81.915 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ae8371a-1c60-49de-8b65-0e88b3e0e5df")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -4297,7 +4370,7 @@
 		)
 		(uuid "a21093f5-7466-4e10-974f-dcf9dc4d2197")
 	)
-	(hierarchical_label "GP5"
+	(hierarchical_label "3V3_O"
 		(shape input)
 		(at 165.735 38.735 0)
 		(effects
@@ -4451,7 +4524,7 @@
 		)
 		(uuid "cac9eb02-78c6-45ba-bc06-efb62cfb3517")
 	)
-	(hierarchical_label "3V3_O"
+	(hierarchical_label "GP4"
 		(shape input)
 		(at 147.955 27.94 180)
 		(effects
@@ -4473,7 +4546,7 @@
 		)
 		(uuid "cc876e20-a11c-4509-8b73-722e4aa0f4da")
 	)
-	(hierarchical_label "3V3_O"
+	(hierarchical_label "GP22"
 		(shape input)
 		(at 147.955 41.275 180)
 		(effects
@@ -4638,7 +4711,7 @@
 		)
 		(uuid "ee183608-140c-489d-a9a1-53be9869265c")
 	)
-	(hierarchical_label "GP2"
+	(hierarchical_label "A_2"
 		(shape input)
 		(at 76.2 61.595 0)
 		(effects
@@ -4648,6 +4721,17 @@
 			(justify left)
 		)
 		(uuid "ee598318-4a0d-4299-96eb-103915dc37e1")
+	)
+	(hierarchical_label "3V3_O"
+		(shape input)
+		(at 165.735 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f12d9510-5cc9-49d8-b746-ee69184a77b8")
 	)
 	(hierarchical_label "GP28"
 		(shape input)
@@ -4704,7 +4788,7 @@
 		)
 		(uuid "fbb11449-2981-45ff-9c33-c2ae8b980491")
 	)
-	(hierarchical_label "GP7"
+	(hierarchical_label "A_1"
 		(shape input)
 		(at 76.2 46.355 0)
 		(effects
@@ -6214,6 +6298,82 @@
 			(project ""
 				(path "/22c889e8-9f1f-4928-aa68-6394d147a31f"
 					(reference "Pi1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 189.23 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de63cddf-332c-493a-8164-6a716ee162bd")
+		(property "Reference" "Pins1"
+			(at 191.77 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 189.23 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83471071-88e0-4e1c-8609-00e4122db885")
+		)
+		(pin "4"
+			(uuid "fb9e5d50-9219-484d-baa6-a15e5734dae2")
+		)
+		(pin "1"
+			(uuid "dfd5182b-bb18-401d-a8a8-6e0015d322e3")
+		)
+		(pin "3"
+			(uuid "0fbb24a0-fbfe-42a7-b6c6-4d6984b61e29")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/22c889e8-9f1f-4928-aa68-6394d147a31f"
+					(reference "Pins1")
 					(unit 1)
 				)
 			)
